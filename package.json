@@ -1,17 +1,17 @@
 {
-  "name": "vitepress-theme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-      "dev": "vitepress dev",
-      "build": "vitepress build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-      "vitepress": "^1.0.0-alpha.4",
-      "vitepress-simeple-theme": "^0.3.2"
-  }
+    "name": "vitepress-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vitepress": "^1.0.0-alpha.4",
+        "vitepress-simple-theme": "^0.4.0"
+    }
 }
