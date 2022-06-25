@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/71883310/175767048-d85fb16b-18d
 
 # 여준우
 ## birth 🎊
-### 2004/12/29
+### 2004/10/21
 ## school 📖
 ### 서울디지텍고등학교(2020.03.01~)
 ## Nationality 🏠
