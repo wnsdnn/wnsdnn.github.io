@@ -1,7 +1,0 @@
----
-title: "WELCOME FRIEND"
-
-
----
-
-# Hello
