@@ -25,6 +25,7 @@ function getSidebar(){
                 items: [
                     { text: '2022_06_25', link: '/sdhs/2206/220625' },
                     { text: '2022_06_26', link: '/sdhs/2206/220626' },
+                    { text: '2022_06_27', link: '/sdhs/2206/220627' },
                 ]
             },
         ],
