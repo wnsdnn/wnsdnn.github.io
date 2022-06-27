@@ -17,34 +17,31 @@ export default {
 }
 
 function getSidebar(){
-    return [
-        {
-            text: 'TIL',
-            collapsible: true,
-            items: [
-                { 
-                    text: '2022_06', 
-                    link: '/TIL/2022_06',
-                    activeMatch: "/TIL",
-                },
-            ]
-        },
-    ]
-    // return {
-    //     "/":[
-    //         {
-    //             text: 'TIL',
-    //             collapsible: true,
-    //             items: [
-    //                 { 
-    //                     text: '2022-06', 
-    //                     link: '/TIL/2022_06',
-    //                     activeMatch: "/TIL",
-    //                 },
-    //             ]
-    //         },
-    //     ],
-    // };
+    return {
+        "/sdhs/2206/": [
+            {
+                text: 'Day',
+                collapsible: true,
+                items: [
+                    { text: '2022_06_25', link: '/sdhs/2206/220625' },
+                    { text: '2022_06_26', link: '/sdhs/2206/220626' },
+                ]
+            },
+        ],
+        "/": [
+            {
+                text: 'TIL',
+                collapsible: true,
+                items: [
+                    { 
+                        text: '2022_06', 
+                        link: '/TIL/2022_06',
+                        activeMatch: "/TIL",
+                    },
+                ]
+            },
+        ],
+    }
 }
 
 function getNav(){
@@ -54,9 +51,17 @@ function getNav(){
             link:"/",
         },
         {
-            text: "TIL",
+            text: "TIL이란?",
             link:"/TIL/til",
             activeMatch: "/TIL",
+        },
+        {
+            text: "기능대회",
+            // link:"/TIL/til",
+            activeMatch: "/webskills",
+            items: [
+                { text: '문제난이도', link: '/webskills/webskills' },
+            ],
         },
     ]
 }
