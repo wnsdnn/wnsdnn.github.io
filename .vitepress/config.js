@@ -42,6 +42,17 @@ function getSidebar(){
                     },
                 ]
             },
+            {
+                text: '일상',
+                collapsible: true,
+                items: [
+                    { 
+                        text: '고등학교 생활 첫번째 이야기', 
+                        link: '/webskills/고등학교 생활 첫번째 이야기',
+                        activeMatch: "/webskills",
+                    },
+                ]
+            },
         ],
     }
 }
