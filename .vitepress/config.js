@@ -9,7 +9,7 @@ export default {
     description:"Theme for sharing created using vitepress. Please use it a lot 😊",
     srcDir : mdDir,
     themeConfig: {
-        // logo: '',
+        logo: 'https://user-images.githubusercontent.com/71883310/176566189-96716921-a47e-4e74-84f6-f36641b52e9e.jpg',
         sidebar:getSidebar(),
         nav: getNav()
     },
