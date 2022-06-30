@@ -28,6 +28,8 @@ function getSidebar(){
                     { text: '2022_06_27', link: '/sdhs/2206/220627' },
                     { text: '2022_06_28', link: '/sdhs/2206/220628' },
                     { text: '2022_06_29', link: '/sdhs/2206/220629' },
+                    { text: '2022_06_30', link: '/sdhs/2206/220630' },
+                    { text: '회고', link: '/sdhs/2206/6월회고' },
                 ]
             },
         ],
