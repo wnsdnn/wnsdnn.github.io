@@ -53,6 +53,8 @@ function getSidebar(){
                     { text: '2022_07_28', link: '/sdhs/2207/220728' },
                     { text: '2022_07_29', link: '/sdhs/2207/220729' },
                     { text: '2022_07_30', link: '/sdhs/2207/220730' },
+                    { text: '2022_07_31', link: '/sdhs/2207/220731' },
+                    { text: '7월 회고', link: '/sdhs/2207/7월회고' },
                 ]
             },
         ],
@@ -67,7 +69,7 @@ function getSidebar(){
                     { text: '2022_06_28', link: '/sdhs/2206/220628' },
                     { text: '2022_06_29', link: '/sdhs/2206/220629' },
                     { text: '2022_06_30', link: '/sdhs/2206/220630' },
-                    { text: '회고', link: '/sdhs/2206/6월회고' },
+                    { text: '6월 회고', link: '/sdhs/2206/6월회고' },
                 ]
             },
         ],
