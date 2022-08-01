@@ -18,6 +18,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2208/": [
+            {
+                text: 'Day',
+                collapsible: true,
+                items: [
+                    { text: '2022_08_01', link: '/sdhs/2208/220801' },
+                ]
+            },
+        ],
         "/sdhs/2207/": [
             {
                 text: 'Day',
@@ -80,6 +89,7 @@ function getSidebar(){
                 items: [
                     {text: '2022_06',  link: '/TIL/2022_06', activeMatch: "/TIL" },
                     {text: '2022_07',  link: '/TIL/2022_07', activeMatch: "/TIL" },
+                    {text: '2022_08',  link: '/TIL/2022_08', activeMatch: "/TIL" },
                 ]
             },
             {
