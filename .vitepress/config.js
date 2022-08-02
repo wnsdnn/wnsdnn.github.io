@@ -24,6 +24,7 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     { text: '2022_08_01', link: '/sdhs/2208/220801' },
+                    { text: '2022_08_02', link: '/sdhs/2208/220802' },
                 ]
             },
         ],
