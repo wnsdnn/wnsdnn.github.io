@@ -13,6 +13,11 @@ export default {
         sidebar:getSidebar(),
         nav: getNav()
     },
+    vite: {
+        ssr: {
+            format: "cjs",
+        }
+    },
 
 }
 
