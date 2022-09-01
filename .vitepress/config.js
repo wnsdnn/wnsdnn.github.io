@@ -23,6 +23,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2209/": [
+            {
+                text: 'Day',
+                collapsible: true,
+                items: [
+                    { text: '2022_09_01', link: '/sdhs/2209/220901' },
+                ]
+            },
+        ],
         "/sdhs/2208/": [
             {
                 text: 'Day',
