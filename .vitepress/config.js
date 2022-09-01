@@ -133,6 +133,7 @@ function getSidebar(){
                     {text: '2022_06',  link: '/TIL/2022_06', activeMatch: "/TIL" },
                     {text: '2022_07',  link: '/TIL/2022_07', activeMatch: "/TIL" },
                     {text: '2022_08',  link: '/TIL/2022_08', activeMatch: "/TIL" },
+                    {text: '2022_09',  link: '/TIL/2022_09', activeMatch: "/TIL" },
                 ]
             },
             {
