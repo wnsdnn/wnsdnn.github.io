@@ -5,7 +5,7 @@ const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
 
 export default {
-    title: "wnsdnn(기능노예) blog",
+    title: `wnsdnn blog`,
     description:"Theme for sharing created using vitepress. Please use it a lot 😊",
     srcDir : mdDir,
     themeConfig: {
@@ -41,6 +41,7 @@ function getSidebar(){
                     { text: '2022_09_11', link: '/sdhs/2209/220911' },
                     { text: '2022_09_12', link: '/sdhs/2209/220912' },
                     { text: '2022_09_13', link: '/sdhs/2209/220913' },
+                    { text: '2022_09_14', link: '/sdhs/2209/220914' },
                 ]
             },
         ],
