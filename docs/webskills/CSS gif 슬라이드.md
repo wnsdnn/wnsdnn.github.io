@@ -1,5 +1,5 @@
 ---
-title: "CSS gif 슬라이드 만들기(2022 전남 A모듈 문제)"
+title: "CSS gif 슬라이드 만들기(22년 전국대회 문제)"
 createBy: 2022-07-27
 ---
 ​
@@ -9,12 +9,14 @@ createBy: 2022-07-27
 # 1. 이미지 만들기
 
 ## 1-1. 포토샵으로 gif 파일 불러오기
+---
 ![스크린샷(1)](https://user-images.githubusercontent.com/71883310/181180859-dabf83a7-6cf0-4810-82f1-ecf31963fb76.png)
 <br>
 <br>
 <br>
 
 ## 1-2. 모든 레이어 보이게 처리
+---
 ![스크린샷(2)](https://user-images.githubusercontent.com/71883310/181181234-6b8fc32a-bc1e-45ce-91b8-e0458b0f05eb.png)
 레이어 전체 선택 후 눈모양 위에서 우클릭
 <br>
@@ -29,6 +31,7 @@ createBy: 2022-07-27
 <br>
 
 ## 1-3. 캔버스 크기 바꾸기
+---
 ![스크린샷(8)](https://user-images.githubusercontent.com/71883310/181184987-c4b5bf7e-5c4d-43de-9348-b48c7a1e774f.png)
 "Ctrl + Art + C" 누른되 나오는 창에 
 <br>
@@ -47,6 +50,7 @@ Width 값을 168960(1920*88)으로 변경 후 "OK" 버튼 클릭
 <br>
 
 ## 1-4. 이미지 레이어 정렬 시키기
+---
 ![스크린샷(10)](https://user-images.githubusercontent.com/71883310/181184999-581f90c4-70c0-48a0-8b21-8bddd137a1bc.png)
 <br>
 ​
@@ -75,6 +79,7 @@ Width 값을 168960(1920*88)으로 변경 후 "OK" 버튼 클릭
 <br>
 
 ## 1-5. 이미지 저장 후 확장자명 변경
+---
 ![스크린샷(15)](https://user-images.githubusercontent.com/71883310/181186509-08d0e6f2-b1d2-423b-a5ad-2725f7889764.png)
 <br>
 
@@ -84,6 +89,7 @@ Width 값을 168960(1920*88)으로 변경 후 "OK" 버튼 클릭
 <br>
 
 ## 1-6. 이미지 완성
+---
 ![스크린샷(20)](https://user-images.githubusercontent.com/71883310/181187305-556c7d63-8103-40bd-a268-7819e77a50b0.png)
 <br>
 <br>
@@ -93,6 +99,7 @@ Width 값을 168960(1920*88)으로 변경 후 "OK" 버튼 클릭
 <br>
 
 ## 2-1 코드
+---
 HTML
 ```
 <input type="checkbox" name="c" id="c">
@@ -148,10 +155,9 @@ CSS
 ```
 
 <br>
-<br>
-<br>
 
 ## 2-2 완성본
+---
 
 <br>
 <video autoplay controls>
