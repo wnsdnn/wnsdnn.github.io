@@ -168,7 +168,7 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     { 
-                        text: 'CSS gif 슬라이드', 
+                        text: '[CSS] gif 슬라이드', 
                         link: '/webskills/CSS gif 슬라이드',
                         activeMatch: "/webskills",
                     },
