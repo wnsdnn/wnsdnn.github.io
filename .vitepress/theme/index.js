@@ -7,5 +7,5 @@ export default {
   
     enhanceApp({ app }) {
       app.component('Comment', Comment)
-    }
+    },
 }

@@ -158,7 +158,18 @@ function getSidebar(){
                     { 
                         text: '고등학교 생활 첫번째 이야기', 
                         link: '/everyday/고등학교 생활 첫번째 이야기',
-                        activeMatch: "/everyday ",
+                        activeMatch: "/everyday",
+                    },
+                ]
+            },
+            {
+                text: '기능대회',
+                collapsible: true,
+                items: [
+                    { 
+                        text: '2022 전남 A gif 슬라이드', 
+                        link: '/webskills/2022전남 gif슬라이드',
+                        activeMatch: "/webskills",
                     },
                 ]
             },
