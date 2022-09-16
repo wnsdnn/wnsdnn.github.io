@@ -167,8 +167,8 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     { 
-                        text: '2022 전남 A gif 슬라이드', 
-                        link: '/webskills/2022전남 gif슬라이드',
+                        text: 'CSS gif 슬라이드', 
+                        link: '/webskills/CSS gif 슬라이드',
                         activeMatch: "/webskills",
                     },
                 ]
