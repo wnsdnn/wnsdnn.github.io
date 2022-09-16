@@ -157,8 +157,8 @@ function getSidebar(){
                 items: [
                     { 
                         text: '고등학교 생활 첫번째 이야기', 
-                        link: '/webskills/고등학교 생활 첫번째 이야기',
-                        activeMatch: "/webskills",
+                        link: '/everyday/고등학교 생활 첫번째 이야기',
+                        activeMatch: "/everyday ",
                     },
                 ]
             },
@@ -176,14 +176,6 @@ function getNav(){
             text: "TIL이란?",
             link:"/TIL/til",
             activeMatch: "/TIL",
-        },
-        {
-            text: "기능대회",
-            // link:"/TIL/til",
-            activeMatch: "/webskills",
-            items: [
-                { text: '문제난이도', link: '/webskills/webskills' },
-            ],
         },
     ]
 }
