@@ -174,6 +174,17 @@ function getSidebar(){
                     },
                 ]
             },
+            {
+                text: 'Vitepress',
+                collapsible: true,
+                items: [
+                    { 
+                        text: 'vitepress 댓글 기능 만들기', 
+                        link: '/Vitepress/vitepress 댓글 기능 만들기',
+                        activeMatch: "/vitepress",
+                    },
+                ]
+            },
         ],
     }
 }
