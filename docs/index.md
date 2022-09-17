@@ -2,6 +2,9 @@
 title: "WELCOME"
 image: https://user-images.githubusercontent.com/71883310/175767048-d85fb16b-18d7-4556-b885-c70aa19a6d72.jpg
 ---
+<script>
+    document.head.innerHTML += `<meta name="google-site-verification" content="zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A" />`;
+</script>
 
 # 여준우
 ## birth 🎊
@@ -17,3 +20,5 @@ image: https://user-images.githubusercontent.com/71883310/175767048-d85fb16b-18d
 - #### 민간기능경기대회 (2022.05.21~ 2022.05.22) 🥈(✔)
 - #### 전국기능경기대회 (2022.08.29~ 2022.09.02) 🥉(✔)
 - #### (갈수록 하락중)
+
+
