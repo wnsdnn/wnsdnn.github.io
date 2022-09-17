@@ -6,7 +6,6 @@ meta:
     content: zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A
 ---
 
-
 # 여준우
 ## birth 🎊
 ### 2004/10/21

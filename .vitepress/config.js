@@ -6,7 +6,7 @@ const mdDir = path.resolve(rootDir, "docs");
 
 export default {
     title: `wnsdnn blog`,
-    description:"Theme for sharing created using vitepress. Please use it a lot 😊",
+    // description: "zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A",
     srcDir : mdDir,
     themeConfig: {
         logo: 'https://user-images.githubusercontent.com/71883310/181257857-4aa6ea13-8b07-497e-b670-e4996c76f180.jpg',
