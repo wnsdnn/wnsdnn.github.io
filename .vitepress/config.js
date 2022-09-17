@@ -6,7 +6,9 @@ const mdDir = path.resolve(rootDir, "docs");
 
 export default {
     title: `wnsdnn blog`,
-    // description: "zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A",
+    head: [
+        ['meta', { name: 'google-site-verification', content: 'zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A' }],
+    ],
     srcDir : mdDir,
     themeConfig: {
         logo: 'https://user-images.githubusercontent.com/71883310/181257857-4aa6ea13-8b07-497e-b670-e4996c76f180.jpg',
