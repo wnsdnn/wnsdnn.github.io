@@ -1,8 +1,11 @@
 ---
 title: "WELCOME"
 image: https://user-images.githubusercontent.com/71883310/175767048-d85fb16b-18d7-4556-b885-c70aa19a6d72.jpg
-
 ---
+
+<head>
+    <meta name="google-site-verification" content="zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A" />
+</head>
 
 # 여준우
 ## birth 🎊
