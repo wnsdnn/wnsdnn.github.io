@@ -1,15 +1,15 @@
 ---
-meta:
-  - name: google-site-verification
-    content: zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A
+# meta:
+#   - name: google-site-verification
+#     content: zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A
 
-analytics:
-  provider: google
+# analytics:
+#   provider: google
 
-  google:
-    tracking_id : G-YKBFVJC3YF
-    anonymize_ip: false
-    
+#   google:
+#     tracking_id : G-YKBFVJC3YF
+#     anonymize_ip: false
+
 title: "WELCOME"
 image: https://user-images.githubusercontent.com/71883310/175767048-d85fb16b-18d7-4556-b885-c70aa19a6d72.jpg
 ---

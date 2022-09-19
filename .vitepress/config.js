@@ -7,14 +7,14 @@ const mdDir = path.resolve(rootDir, "docs");
 export default {
     title: `wnsdnn blog`,
     head: [
-	    [
-	      "script",
-	      {
-	        async: true,
-	        src: "https://www.googletagmanager.com/gtag/js?id=G-YKBFVJC3YF",
-	      },
-	    ],
-	    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YKBFVJC3YF');"]],
+        [
+            'script',
+            {
+                async: true,
+                src: 'https://www.googletagmanager.com/gtag/js?id=G-YKBFVJC3YF',
+            },
+        ],
+        ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YKBFVJC3YF');",],],
         ['meta', { name: 'google-site-verification', content: 'zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A' }],
     ],
     srcDir : mdDir,
