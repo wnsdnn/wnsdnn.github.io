@@ -16,6 +16,7 @@ export default {
         ],
         ["script", {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YKBFVJC3YF');"],
         ['meta', { name: 'google-site-verification', content: 'zhv4UHG7Qfn8At3XKNXpBEVVNDHA3hinj_avfyq4m_A' }],
+        ['meta', { name: 'naver-site-verification', content: '005a1530a5ef2e6dfad13b2dbbb845fade9fc996' }],
     ],
     srcDir : mdDir,
     themeConfig: {
