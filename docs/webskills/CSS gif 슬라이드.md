@@ -1,5 +1,5 @@
 ---
-title: "[CSS] gif 슬라이드 만들기 (2022년 전국대회 문제)"
+title: "[CSS] gif 슬라이드 만들기"
 createBy: 2022-07-27
 ---
 ​
@@ -33,6 +33,9 @@ createBy: 2022-07-27
 ​
 ![스크린샷(13)](https://user-images.githubusercontent.com/71883310/181185284-ba7881b7-602a-4552-b952-ba25561135ce.png)
 Width 값을 168960(1920*88)으로 변경 후 "OK" 버튼 클릭
+<br>
+
+`(원하는 width크기 * 레이어)`
 ​
 
 ### 결과
