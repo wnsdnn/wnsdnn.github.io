@@ -1,8 +1,15 @@
 // .vitepress/config.js
+import { createWriteStream } from 'node:fs'
+import { resolve } from 'node:path'
+import { SitemapStream } from 'sitemap'
+
+const links = []
+
 const path = require("path");
 
 const rootDir = path.resolve(__dirname, "../");
 const mdDir = path.resolve(rootDir, "docs");
+
 
 export default {
     title: `wnsdnn blog`,
@@ -29,6 +36,23 @@ export default {
             format: "cjs",
         }
     },
+    
+    transformHtml: (_, id, { pageData }) => {
+        if (!/[\\/]404\.html$/.test(id))
+            links.push({
+            // you might need to change this if not using clean urls mode
+            url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+            lastmod: pageData.lastUpdated
+        })
+    },
+        
+    buildEnd: ({ outDir }) => {
+        const sitemap = new SitemapStream({ hostname: 'https://wnsdnn.github.io/' })
+        const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+        sitemap.pipe(writeStream)
+        links.forEach((link) => sitemap.write(link))
+        sitemap.end()
+    }
 
 }
 
