@@ -99,7 +99,7 @@ export default {
 <br>
 
 
-### `config.js` 수정
+### `index.js` 수정
 ```
 .vitepress/theme/index.js
 ```
