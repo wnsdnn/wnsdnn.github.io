@@ -204,6 +204,11 @@ function getSidebar(){
                         link: '/everyday/고등학교 생활 첫번째 이야기',
                         activeMatch: "/everyday",
                     },
+                    { 
+                        text: '고등학교 생활 두번째 이야기', 
+                        link: '/everyday/고등학교 생활 두번째 이야기',
+                        activeMatch: "/everyday",
+                    },
                 ]
             },
             {
