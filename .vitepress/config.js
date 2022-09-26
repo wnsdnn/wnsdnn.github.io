@@ -87,6 +87,8 @@ function getSidebar(){
                     { text: '2022_09_22', link: '/sdhs/2209/220922' },
                     { text: '2022_09_23', link: '/sdhs/2209/220923' },
                     { text: '2022_09_24', link: '/sdhs/2209/220924' },
+                    { text: '2022_09_25', link: '/sdhs/2209/220925' },
+                    { text: '2022_09_26', link: '/sdhs/2209/220926' },
                 ]
             },
         ],
@@ -204,11 +206,11 @@ function getSidebar(){
                         link: '/everyday/고등학교 생활 첫번째 이야기',
                         activeMatch: "/everyday",
                     },
-                    { 
-                        text: '고등학교 생활 두번째 이야기', 
-                        link: '/everyday/고등학교 생활 두번째 이야기',
-                        activeMatch: "/everyday",
-                    },
+                    // { 
+                    //     text: '고등학교 생활 두번째 이야기', 
+                    //     link: '/everyday/고등학교 생활 두번째 이야기',
+                    //     activeMatch: "/everyday",
+                    // },
                 ]
             },
             {
