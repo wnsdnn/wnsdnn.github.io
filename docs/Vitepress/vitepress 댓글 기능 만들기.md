@@ -94,7 +94,7 @@ export default {
 </script>
 ```
 
-`<Github Name/Github Repository>`에 자신의 깃허브이름/아까만든 Repository명 삽입
+`<Github Name/Github Repository>`에 `자신의 깃허브이름`/`아까만든 Repository명` 삽입
 <br>
 <br>
 
