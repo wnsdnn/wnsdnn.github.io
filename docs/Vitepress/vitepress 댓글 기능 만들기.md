@@ -86,7 +86,7 @@ export default {
     
     utterances.setAttribute('issue-term', 'pathname'); // pathname | url | title | og:title 중 택 1
     utterances.setAttribute('theme','github-light');
-    utterances.setAttribute('repo', <Github Name/Github Repository> );
+    utterances.setAttribute('repo', "Github Name/Github Repository" );
 
     this.$refs.comment.appendChild(utterances);
   }
@@ -94,7 +94,7 @@ export default {
 </script>
 ```
 
-`<Github Name/Github Repository>`에 `자신의 깃허브이름`/`아까만든 Repository명` 삽입 
+`"Github Name/Github Repository"`에 `"자신의 깃허브이름`/`아까만든 Repository명"` 삽입 
 <br>
 
 #### ex) "wnsdnn/blog_comments"
