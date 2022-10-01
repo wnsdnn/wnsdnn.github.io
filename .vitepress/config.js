@@ -58,6 +58,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2210/": [
+            {
+                text: 'Day',
+                collapsible: true,
+                items: [
+                    { text: '2022_10_01', link: '/sdhs/2210/221001' },
+                ]
+            },
+        ],
         "/sdhs/2209/": [
             {
                 text: 'Day',
@@ -199,6 +208,7 @@ function getSidebar(){
                     {text: '2022_07',  link: '/TIL/2022_07', activeMatch: "/TIL" },
                     {text: '2022_08',  link: '/TIL/2022_08', activeMatch: "/TIL" },
                     {text: '2022_09',  link: '/TIL/2022_09', activeMatch: "/TIL" },
+                    {text: '2022_10',  link: '/TIL/2022_10', activeMatch: "/TIL" },
                 ]
             },
             {
