@@ -78,6 +78,7 @@ function getSidebar(){
                     { text: '10월 13일', link: '/sdhs/2210/221013' },
                     { text: '10월 14일', link: '/sdhs/2210/221014' },
                     { text: '10월 15일', link: '/sdhs/2210/221015' },
+                    { text: '10월 16일', link: '/sdhs/2210/221016' },
                 ]
             },
         ],
