@@ -91,6 +91,7 @@ function getSidebar(){
                     { text: '10월 26일', link: '/sdhs/2210/221026' },
                     { text: '10월 27일', link: '/sdhs/2210/221027' },
                     { text: '10월 28일', link: '/sdhs/2210/221028' },
+                    { text: '10월 28일', link: '/sdhs/2210/221028' },
                 ]
             },
         ],
@@ -237,11 +238,11 @@ function getSidebar(){
                 text: 'TIL',
                 collapsible: true,
                 items: [
-                    {text: '2022년 06월',  link: '/TIL/2022_06', activeMatch: "/TIL" },
-                    {text: '2022년 07월',  link: '/TIL/2022_07', activeMatch: "/TIL" },
-                    {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
-                    {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
                     {text: '2022년 10월',  link: '/TIL/2022_10', activeMatch: "/TIL" },
+                    {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
+                    {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
+                    {text: '2022년 07월',  link: '/TIL/2022_07', activeMatch: "/TIL" },
+                    {text: '2022년 06월',  link: '/TIL/2022_06', activeMatch: "/TIL" },
                 ]
             },
             {
