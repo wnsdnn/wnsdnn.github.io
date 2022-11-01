@@ -58,6 +58,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2211/": [
+            {
+                text: '2022년 11월',
+                collapsible: true,
+                items: [
+                    { text: '11월 01일', link: '/sdhs/2211/221101' },
+                ]
+            },
+        ],
         "/sdhs/2210/": [
             {
                 text: '2022년 10월',
@@ -240,6 +249,7 @@ function getSidebar(){
                 text: 'TIL',
                 collapsible: true,
                 items: [
+                    {text: '2022년 11월',  link: '/TIL/2022_11', activeMatch: "/TIL" },
                     {text: '2022년 10월',  link: '/TIL/2022_10', activeMatch: "/TIL" },
                     {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
                     {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
