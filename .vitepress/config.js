@@ -64,6 +64,7 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     { text: '11월 01일', link: '/sdhs/2211/221101' },
+                    { text: '11월 02일', link: '/sdhs/2211/221102' },
                 ]
             },
         ],
