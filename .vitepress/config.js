@@ -58,6 +58,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2212/": [
+            {
+                text: '2022년 12월',
+                collapsible: true,
+                items: [
+                    { text: '12월 04일', link: '/sdhs/2212/221204' },
+                ]
+            },
+        ],
         "/sdhs/2211/": [
             {
                 text: '2022년 11월',
@@ -260,17 +269,19 @@ function getSidebar(){
                 text: 'TIL',
                 collapsible: true,
                 items: [
-                    {text: '2022년 11월',  link: '/TIL/2022_11', activeMatch: "/TIL" },
-                    {text: '2022년 10월',  link: '/TIL/2022_10', activeMatch: "/TIL" },
-                    {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
-                    {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
-                    {text: '2022년 07월',  link: '/TIL/2022_07', activeMatch: "/TIL" },
-                    {text: '2022년 06월',  link: '/TIL/2022_06', activeMatch: "/TIL" },
+                    {text: '2022년 TIL',  link: '/TIL/2022', activeMatch: "/TIL" },
+                    // {text: '2022년 11월',  link: '/TIL/2022_11', activeMatch: "/TIL" },
+                    // {text: '2022년 10월',  link: '/TIL/2022_10', activeMatch: "/TIL" },
+                    // {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
+                    // {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
+                    // {text: '2022년 07월',  link: '/TIL/2022_07', activeMatch: "/TIL" },
+                    // {text: '2022년 06월',  link: '/TIL/2022_06', activeMatch: "/TIL" },
                 ]
             },
             {
                 text: '일상',
                 collapsible: true,
+                collapsed: true,
                 items: [
                     { 
                         text: '고등학교 생활 첫번째 이야기', 
@@ -287,6 +298,7 @@ function getSidebar(){
             {
                 text: '기능대회',
                 collapsible: true,
+                collapsed: true,
                 items: [
                     { 
                         text: '[CSS] gif 슬라이드', 
@@ -298,6 +310,7 @@ function getSidebar(){
             {
                 text: 'Vitepress',
                 collapsible: true,
+                collapsed: true,
                 items: [
                     { 
                         text: 'vitepress 댓글 기능 만들기', 
@@ -311,26 +324,11 @@ function getSidebar(){
                 collapsible: true,
                 collapsed: true,
                 items: [
-                    { 
-                        text: '2022년 6월 회고', 
-                        link: '/sdhs/2206/6월회고.md',
-                        activeMatch: "/sdhs",
-                    },
-                    { 
-                        text: '2022년 7월 회고', 
-                        link: '/sdhs/2207/7월회고.md',
-                        activeMatch: "/sdhs",
-                    },
-                    { 
-                        text: '2022년 8월 회고', 
-                        link: '/sdhs/2208/8월회고.md',
-                        activeMatch: "/sdhs",
-                    },
-                    { 
-                        text: '2022년 9월 회고', 
-                        link: '/sdhs/2209/9월회고.md',
-                        activeMatch: "/sdhs",
-                    },
+                    { text: '2022년 6월 회고', link: '/sdhs/2206/6월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 7월 회고', link: '/sdhs/2207/7월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 8월 회고', link: '/sdhs/2208/8월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 9월 회고', link: '/sdhs/2209/9월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 10월 회고', link: '/sdhs/2210/10월회고.md', activeMatch: "/sdhs", },
                 ]
             },
         ],
