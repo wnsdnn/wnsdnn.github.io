@@ -84,6 +84,7 @@ function getSidebar(){
                     { text: '11월 19일', link: '/sdhs/2211/221119' },
                     { text: '11월 22일', link: '/sdhs/2211/221122' },
                     { text: '11월 27일', link: '/sdhs/2211/221127' },
+                    { text: '11월 회고', link: '/sdhs/2211/11월회고' },
                 ]
             },
         ],
@@ -123,6 +124,7 @@ function getSidebar(){
                     { text: '10월 29일', link: '/sdhs/2210/221029' },
                     { text: '10월 30일', link: '/sdhs/2210/221030' },
                     { text: '10월 31일', link: '/sdhs/2210/221031' },
+                    { text: '10월 회고', link: '/sdhs/2210/10월회고' },
                 ]
             },
         ],
@@ -162,6 +164,7 @@ function getSidebar(){
                     { text: '09월 28일', link: '/sdhs/2209/220928' },
                     { text: '09월 29일', link: '/sdhs/2209/220929' },
                     { text: '09월 30일', link: '/sdhs/2209/220930' },
+                    { text: '9월 회고', link: '/sdhs/2209/9월회고' },
                 ]
             },
         ],
@@ -329,6 +332,7 @@ function getSidebar(){
                     { text: '2022년 8월 회고', link: '/sdhs/2208/8월회고.md', activeMatch: "/sdhs", },
                     { text: '2022년 9월 회고', link: '/sdhs/2209/9월회고.md', activeMatch: "/sdhs", },
                     { text: '2022년 10월 회고', link: '/sdhs/2210/10월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 11월 회고', link: '/sdhs/2211/11월회고.md', activeMatch: "/sdhs", },
                 ]
             },
         ],
