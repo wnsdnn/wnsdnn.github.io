@@ -65,6 +65,7 @@ function getSidebar(){
                 items: [
                     { text: '12월 04일', link: '/sdhs/2212/221204' },
                     { text: '12월 09일', link: '/sdhs/2212/221209' },
+                    { text: '12월 12일', link: '/sdhs/2212/221212' },
                 ]
             },
         ],
