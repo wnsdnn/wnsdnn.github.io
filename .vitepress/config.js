@@ -66,6 +66,7 @@ function getSidebar(){
                     { text: '12월 04일', link: '/sdhs/2212/221204' },
                     { text: '12월 09일', link: '/sdhs/2212/221209' },
                     { text: '12월 12일', link: '/sdhs/2212/221212' },
+                    { text: 'L3 자격증 + 운전면허학원 첫날 후기', link: '/sdhs/2212/221213' },
                 ]
             },
         ],
