@@ -69,6 +69,9 @@ function getSidebar(){
                     { text: 'L3 자격증 + 운전면허학원 첫날 후기', link: '/sdhs/2212/221213' },
                     { text: 'Custom Component과 프로젝트 중간점검 그리고 ...', link: '/sdhs/2212/221219' },
                     { text: 'Google Lit', link: '/sdhs/2212/221226' },
+                    { text: '회사 종무식', link: '/sdhs/2212/221229' },
+                    { text: '운전면허 필기시험', link: '/sdhs/2212/221230' },
+                    { text: '2022년도 마지막날', link: '/sdhs/2212/221231' },
                 ]
             },
         ],
