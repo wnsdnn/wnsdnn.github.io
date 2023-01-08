@@ -58,6 +58,15 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2301/": [
+            {
+                text: '2023년 01월',
+                collapsible: true,
+                items: [
+                    { text: '이제 미성년자 아님', link: '/sdhs/2301/230101' },
+                ]
+            },
+        ],
         "/sdhs/2212/": [
             {
                 text: '2022년 12월',
@@ -72,6 +81,7 @@ function getSidebar(){
                     { text: '회사 종무식', link: '/sdhs/2212/221229' },
                     { text: '운전면허 필기시험', link: '/sdhs/2212/221230' },
                     { text: '2022년도 마지막날', link: '/sdhs/2212/221231' },
+                    { text: '2022년 회고', link: '/sdhs/2212/2022년회고' },
                 ]
             },
         ],
@@ -281,12 +291,7 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     {text: '2022년 TIL',  link: '/TIL/2022', activeMatch: "/TIL" },
-                    // {text: '2022년 11월',  link: '/TIL/2022_11', activeMatch: "/TIL" },
-                    // {text: '2022년 10월',  link: '/TIL/2022_10', activeMatch: "/TIL" },
-                    // {text: '2022년 09월',  link: '/TIL/2022_09', activeMatch: "/TIL" },
-                    // {text: '2022년 08월',  link: '/TIL/2022_08', activeMatch: "/TIL" },
-                    // {text: '2022년 07월',  link: '/TIL/2022_07', activeMatch: "/TIL" },
-                    // {text: '2022년 06월',  link: '/TIL/2022_06', activeMatch: "/TIL" },
+                    {text: '2023년 TIL',  link: '/TIL/2023', activeMatch: "/TIL" },
                 ]
             },
             {
@@ -341,6 +346,7 @@ function getSidebar(){
                     { text: '2022년 9월 회고', link: '/sdhs/2209/9월회고.md', activeMatch: "/sdhs", },
                     { text: '2022년 10월 회고', link: '/sdhs/2210/10월회고.md', activeMatch: "/sdhs", },
                     { text: '2022년 11월 회고', link: '/sdhs/2211/11월회고.md', activeMatch: "/sdhs", },
+                    { text: '2022년 회고', link: '/sdhs/2212/2022년회고.md', activeMatch: "/sdhs", },
                 ]
             },
         ],
