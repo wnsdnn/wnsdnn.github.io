@@ -64,6 +64,7 @@ function getSidebar(){
                 collapsible: true,
                 items: [
                     { text: '이제 미성년자 아님', link: '/sdhs/2301/230101' },
+                    { text: '왜 양력설은 설연휴가 없지?', link: '/sdhs/2301/230102' },
                 ]
             },
         ],
