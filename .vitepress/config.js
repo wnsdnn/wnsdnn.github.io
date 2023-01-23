@@ -69,6 +69,7 @@ function getSidebar(){
                     { text: '이번달 회사 마지막날', link: '/sdhs/2301/230109' },
                     { text: '졸업식', link: '/sdhs/2301/230110' },
                     { text: '피텍 면접', link: '/sdhs/2301/230112' },
+                    { text: '장내기능 수업', link: '/sdhs/2301/230118' },
                 ]
             },
         ],
