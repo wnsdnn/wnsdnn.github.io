@@ -70,6 +70,7 @@ function getSidebar(){
                     { text: '졸업식', link: '/sdhs/2301/230110' },
                     { text: '피텍 면접', link: '/sdhs/2301/230112' },
                     { text: '장내기능 수업', link: '/sdhs/2301/230118' },
+                    { text: '장내기능 시험', link: '/sdhs/2301/230119' },
                 ]
             },
         ],
