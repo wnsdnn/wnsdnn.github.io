@@ -71,6 +71,7 @@ function getSidebar(){
                     { text: '피텍 면접', link: '/sdhs/2301/230112' },
                     { text: '장내기능 수업', link: '/sdhs/2301/230118' },
                     { text: '장내기능 시험', link: '/sdhs/2301/230119' },
+                    { text: '우분투 사용해보기', link: '/sdhs/2301/230125' },
                 ]
             },
         ],
