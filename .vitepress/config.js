@@ -72,6 +72,7 @@ function getSidebar(){
                     { text: '장내기능 수업', link: '/sdhs/2301/230118' },
                     { text: '장내기능 시험', link: '/sdhs/2301/230119' },
                     { text: '우분투 사용해보기', link: '/sdhs/2301/230125' },
+                    { text: '도록주행 첫수업 + 방학 마지막날', link: '/sdhs/2301/230131' },
                 ]
             },
         ],
