@@ -1,5 +1,5 @@
 ---
-title: "TIL"
+title: "Diary"
 description: vitepress-simple-theme Markdown Container
 ---
 

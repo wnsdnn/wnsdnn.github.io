@@ -296,11 +296,11 @@ function getSidebar(){
         ],
         "/": [
             {
-                text: 'TIL',
+                text: 'Diary',
                 collapsible: true,
                 items: [
-                    {text: '2022년 TIL',  link: '/TIL/2022', activeMatch: "/TIL" },
-                    {text: '2023년 TIL',  link: '/TIL/2023', activeMatch: "/TIL" },
+                    {text: '2022년 일기',  link: '/Diary/2022', activeMatch: "/Diary" },
+                    {text: '2023년 일기',  link: '/Diary/2023', activeMatch: "/Diary" },
                 ]
             },
             {
@@ -368,10 +368,10 @@ function getNav(){
             text: "HOME",
             link:"/",
         },
-        {
-            text: "TIL이란?",
-            link:"/TIL/til",
-            activeMatch: "/TIL",
-        },
+        // {
+        //     text: "TIL이란?",
+        //     link:"/Diary/Diary",
+        //     activeMatch: "/Diary",
+        // },
     ]
 }
