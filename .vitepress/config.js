@@ -65,6 +65,7 @@ function getSidebar(){
                 items: [
                     { text: '정규직 계약', link: '/sdhs/2302/230201' },
                     { text: '오랜만에 학교', link: '/sdhs/2302/230208' },
+                    { text: 'Spring Boot ojt 교육', link: '/sdhs/2302/230209' },
                 ]
             },
         ],
