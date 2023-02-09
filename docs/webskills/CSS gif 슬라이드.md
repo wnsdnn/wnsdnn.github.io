@@ -140,7 +140,9 @@ CSS
 <video autoplay controls>
     <source src="https://user-images.githubusercontent.com/71883310/190556751-f8405149-98b5-47d5-a35c-0442a8077005.mov">
 </video>
+
 <br>
+
 잘 작동하는 걸 볼수 있다.
 
 
