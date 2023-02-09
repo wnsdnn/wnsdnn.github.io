@@ -58,6 +58,16 @@ export default {
 
 function getSidebar(){
     return {
+        "/sdhs/2302/": [
+            {
+                text: '2023년 02월',
+                collapsible: true,
+                items: [
+                    { text: '정규직 계약', link: '/sdhs/2302/230201' },
+                    { text: '오랜만에 학교', link: '/sdhs/2302/230208' },
+                ]
+            },
+        ],
         "/sdhs/2301/": [
             {
                 text: '2023년 01월',
