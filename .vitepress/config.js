@@ -68,6 +68,7 @@ function getSidebar(){
                     { text: 'Spring Boot ojt 교육', link: '/sdhs/2302/230209' },
                     { text: '많이 뜨끔한 날', link: '/sdhs/2302/230213' },
                     { text: '회식', link: '/sdhs/2302/230214' },
+                    { text: '신체검사', link: '/sdhs/2302/230220' },
                 ]
             },
         ],
