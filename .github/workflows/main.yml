@@ -1,6 +1,10 @@
 name: Build and Deploy
 on: [push]
 jobs:
+  build:
+    strategy:
+      matrix:
+        node-version: [18.x]
     build-and-deploy:
         runs-on: ubuntu-latest
         steps:
