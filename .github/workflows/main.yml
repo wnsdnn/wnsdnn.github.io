@@ -2,9 +2,6 @@ name: Build and Deploy
 on: [push]
 jobs:
     build-and-deploy:
-        strategy:
-          matrix:
-            node-version: [18.x]
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
