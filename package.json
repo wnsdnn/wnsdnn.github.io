@@ -11,14 +11,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "body-scroll-lock": "^4.0.0-beta.0",
-        "node": "^18.13.0",
         "sitemap": "^7.1.1",
         "vitepress": "^1.0.0-alpha.4",
-        "vitepress-simple-theme": "^0.4.0",
-        "vitepress-theme": "^1.0.8"
-    },
-    "devDependencies": {
-        "vite": "^5.0.2"
+        "vitepress-simple-theme": "^0.4.0"
     }
 }
