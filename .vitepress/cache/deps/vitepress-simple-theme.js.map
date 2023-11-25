@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vitepress-simple-theme/.vitepress/theme/index.js"],
+  "sourcesContent": ["// .vitepress/theme/index.js\r\nimport DefaultTheme from \"vitepress/theme\";\r\nimport Layout from \"./Layout.vue\";\r\nimport NotFound from \"./NotFound.vue\";\r\nimport \"../css/common.css\";\r\nexport default {\r\n    ...DefaultTheme,\r\n    Layout,\r\n    NotFound,\r\n\r\n    // this is a Vue 3 functional component\r\n\r\n    enhanceApp({ app, router, siteData }) {\r\n        // app is the Vue 3 app instance from `createApp()`.\r\n        // router is VitePress' custom router. `siteData` is\r\n        // a `ref` of current site-level metadata.\r\n    },\r\n};\r\n"],
+  "mappings": ";AACA,OAAO,kBAAkB;AACzB,OAAO,YAAY;AACnB,OAAO,cAAc;AACrB,OAAO;AACP,IAAO,gBAAQ;AAAA,EACX,GAAG;AAAA,EACH;AAAA,EACA;AAAA;AAAA,EAIA,WAAW,EAAE,KAAK,QAAQ,SAAS,GAAG;AAAA,EAItC;AACJ;",
+  "names": []
+}
