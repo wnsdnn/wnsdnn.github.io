@@ -11,8 +11,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "sitemap": "7.1.1",
+        "sitemap": "^7.1.1",
         "vitepress": "1.0.0-alpha.4",
-        "vitepress-simple-theme": "0.4.0"
+        "vitepress-simple-theme": "0.5.2"
     }
 }
