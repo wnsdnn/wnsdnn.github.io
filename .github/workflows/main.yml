@@ -7,10 +7,8 @@ jobs:
             - name: Checkout
               uses: actions/checkout@main
 
-            - name: Use Node.js 20.10.0
-              uses: actions/setup-node@v2
-              with:
-                  node-version: '20.10.0'
+            - name: Set Yarn version
+              run: npm install -g yarn@1.14.0
 
             - run: node -v
             - name: Vuepress deploy
